@@ -68,7 +68,7 @@ const ReactList = () => {
     {list.map((mapping) => (
       <div className="childs">
          <span>{mapping.icon}</span> 
-          <div>
+          <div className='text'>
         <h3>{mapping.title}</h3>
         <p>{mapping.content}</p>
       </div>
